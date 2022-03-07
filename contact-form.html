@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Contact Form
+    </title>
+</head>
+
+<body>
+    <nav>
+        <div class="left-side">
+            <img src="assets/logo.png" alt="logo">
+            <ul>
+                <li>
+                    <a href="index.html">Home </a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog </a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <a href="contact-form.html">Contact Me</a>
+        </div>
+    </nav>
+    <form style=" background-color: white; width: 400px ; margin: 150px auto;">
+        <div class="center">
+            <label for="input-name">Name</label>
+            <input id="input-name" type="text">
+        </div>
+
+        <div>
+            <label for="input-email">Email</label>
+            <input id="input-email"
+            type="email">
+        </div>
+
+        <div>
+            <label for="input-phone">Phone Number</label>
+            <input id="input-phone"
+             type="number" >
+        </div>
+
+        <div class=" ceklis">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="html" value="html">
+            <label for="CSS">CSS</label>
+            <input type="checkbox" id="css" value="css">
+        </div>
+
+        <div>
+            <label for="input-subject">Subject</label>
+            <select id="input-subject">
+                <option value="">pilih</option>
+                <option>Belom pernah</option>
+                <option>Pernah</option>
+            </select>
+        </div>
+        <label  for="input-message">Pesan</label>
+        <textarea id="input-message" 
+        cols="30" 
+        rows="10" 
+        maxlength="13"
+        ></textarea>
+
+        <button type="button" onclick="submitData()" value="submit">Submit</button>
+        <a href = "mailto:Test@mail.com?subject=Test subject&body=halo bang"></a>
+
+    </form>
+<script src="form.js"></script>
+
+</body>
+
+</html>

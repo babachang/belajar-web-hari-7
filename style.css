@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+/* nav awal */
+nav {
+    display: flex;
+    background-color: grey;
+    height: 7vh;
+}
+
+nav .left-side{
+    /* background-color: aqua; */
+    flex: 50%; 
+    padding-left: 90px;
+    align-items: center;
+    display: flex;
+}
+nav img{
+    height: 60px;
+    width: 100px;   
+}
+nav .left-side li{  
+    display: inline;
+    margin-left: 40px;
+}
+
+nav .left-side ul li a{
+    color:white;
+    text-decoration: none;
+}
+nav .right-side{
+    display: flex;
+    padding-right:90px;
+    justify-content:right;
+    align-items: center;
+    font-size: 15px;
+}
+nav .right-side a{
+    background-color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px 20px
+    
+}
+nav .right-side a:hover{
+    background-color: rgb(213, 235, 88);
+}
+/* nav akhir  */
+
+.container {
+    /* background-color: blue; */
+
+    
+}
+.container .section .kiri{
+    /* background-color: yellow; */
+    display: flex;
+    flex: 30%;
+    padding: 35px;
+    
+}
+.container .section .kiri .up{
+border:2px solid black;
+width:350px ;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0px 0px 35px grey;
+}
+.container .section .kanan{
+    /* background-color: green; */
+    flex: 70%;
+    padding-left: 35px;
+
+}
+.kanan p{
+    color: grey;
+}
+.section .kanan .skill-container{
+    display: flex;
+}
+
+.skill-container div{
+    flex: 1;
+}
+.skill-container div img{
+    width: 50px;
+    height: 50px;
+}
+.sosmed{
+    position: relative;
+}
+.sosmed img{
+    width: 40px ;
+    height: 40px;
+}
+form {
+    background-color: rgb(196, 194, 194); 
+    width: 400px ; 
+    margin: 150px auto;
+}
+form label{ 
+    font-size:20px; 
+    font-weight: bold;
+
+}
+input, select, textarea   {
+    font-size:20px; 
+    background-color:rgb(185, 184, 184);
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px ;
+    margin:5px 0;
+    box-sizing: border-box;
+}
+button {
+    background-color:white;
+    width: 20%;
+    border: 0px solid;
+    border-radius:6px;
+    padding: 10px;
+}
+button:hover{
+    background: linear-gradient(white,grey);
+}
